@@ -31,7 +31,7 @@
       "ports": ["9091:9091/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Authelia",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Authelia",
@@ -65,7 +65,7 @@
       "ports": ["6767:6767/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Bazarr",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Bazarr",
@@ -95,7 +95,7 @@
       "ports": ["4180:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Zus.am",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Zusam",
@@ -138,7 +138,7 @@
       "ports": ["8337:8337/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Beets",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Beets",
@@ -165,7 +165,7 @@
       "ports": [":80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Vaultwarden",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Vaultwarden",
@@ -200,7 +200,7 @@
       "ports": ["4040:4040/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Booksonic",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -278,7 +278,7 @@
       "ports": ["3388:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Trilium",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/trilium-data",
@@ -308,7 +308,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "COPS",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -342,7 +342,7 @@
       "ports": ["5000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Kavita",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -377,7 +377,7 @@
       "ports": ["8083:8083/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Calibre Web",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -436,7 +436,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Chevereto",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "container": "/var/www/html/images"
@@ -453,7 +453,7 @@
       "ports": ["4000:4000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Chowdown",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Chowdown",
@@ -471,7 +471,7 @@
       "ports": ["3280:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Tandoor",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Tandoor",
@@ -518,7 +518,7 @@
       "ports": ["8443:8443/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Code Server",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Code-Server",
@@ -548,7 +548,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Codiad",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Codiad",
@@ -578,7 +578,7 @@
       "ports": ["5050:5050/tcp"],
       "restart_policy": "unless-stopped",
       "title": "CouchPotato",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Couchpotato",
@@ -615,7 +615,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Daapd",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Daapd",
@@ -637,7 +637,7 @@
       "ports": ["5000:5000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "DashMachine",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Dashmachine",
@@ -668,7 +668,7 @@
       "ports": ["8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Davos",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Davos",
@@ -691,7 +691,7 @@
       "ports": ["6595:6595/tcp"],
       "restart_policy": "unless-stopped",
       "title": "DeeMix",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/DeeMix",
@@ -729,7 +729,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Deluge",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Deluge",
@@ -763,7 +763,7 @@
       "ports": ["1443:1443/tcp", "6144:6144/tcp", "8080:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Domoticz",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Domoticz",
@@ -803,7 +803,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Duck DNS",
-      "type": 1
+      "type": 3
     },
     {
       "categories": ["Backup", "Cloud", "Productivity", "Tools"],
@@ -827,7 +827,7 @@
       "ports": ["8200:8200/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Duplicati",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Duplicati",
@@ -870,7 +870,7 @@
       "ports": ["8096:8096/tcp", "8920:8920/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Emby",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Emby",
@@ -897,7 +897,7 @@
       "ports": ["6555:6555/tcp"],
       "restart_policy": "unless-stopped",
       "title": "EmbyStat",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/EmbyStat",
@@ -916,7 +916,7 @@
       "ports": ["8082:8082/tcp"],
       "restart_policy": "unless-stopped",
       "title": "FileBrowser",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/FileBrowser",
@@ -950,7 +950,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "FreshRSS",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/freshrss",
@@ -992,7 +992,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Gazee",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Gazee",
@@ -1019,7 +1019,7 @@
       "ports": ["8080:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Guacamole",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Guacamole",
@@ -1053,7 +1053,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Grocy",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Grocy",
@@ -1083,7 +1083,7 @@
       "ports": ["8085:8085/tcp"],
       "restart_policy": "unless-stopped",
       "title": "HTPC Manager",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/HTPCmanager",
@@ -1113,7 +1113,7 @@
       "ports": ["8181:8181/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Headphones",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Headphones",
@@ -1151,7 +1151,7 @@
       "ports": ["80/tcp", "443/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Heimdall",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Heimdall",
@@ -1170,7 +1170,7 @@
       "ports": ["8902:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Homer",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Homer/assets",
@@ -1395,7 +1395,7 @@
       "ports": ["5005:5005/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Flame-Dashboard",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/flame-dashboard",
@@ -1413,7 +1413,7 @@
       "ports": ["3000:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Huginn",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/huginn",
@@ -1443,7 +1443,7 @@
       "ports": ["3993:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Eufy Security WS",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/eufy-security-ws",
@@ -1514,7 +1514,7 @@
       "ports": ["9117:9117/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Jackett",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Jackett",
@@ -1552,7 +1552,7 @@
       "ports": ["8096:8096/tcp", "8920:8920/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Jellyfin",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Jellyfin",
@@ -1590,7 +1590,7 @@
       "ports": ["8080/tcp", "9777/udp"],
       "restart_policy": "unless-stopped",
       "title": "Kodi Headless",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Kodi",
@@ -1620,7 +1620,7 @@
       "ports": ["5299:5299/tcp"],
       "restart_policy": "unless-stopped",
       "title": "LazyLibrarian",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "container": "/config"
@@ -1740,7 +1740,7 @@
       "ports": ["80/tcp", "443/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Let's Encrypt / SWAG",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/LetsEncrypt",
@@ -1758,7 +1758,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "LibreSpeed",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/LibreSpeed",
@@ -1788,7 +1788,7 @@
       "ports": ["8686:8686/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Lidarr",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Lidarr",
@@ -1826,7 +1826,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Lychee",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Lychee",
@@ -1865,7 +1865,7 @@
       "ports": ["3306:3306/tcp"],
       "restart_policy": "unless-stopped",
       "title": "MariaDB",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mariadb",
@@ -1895,7 +1895,7 @@
       "ports": ["8080:8080/tcp", "25565:25565/tcp"],
       "restart_policy": "unless-stopped",
       "title": "McMyAdmin 2",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "container": "/minecraft"
@@ -1924,7 +1924,7 @@
       "ports": ["8081:8081/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Medusa",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Medusa",
@@ -1962,7 +1962,7 @@
       "ports": ["30000:30000/udp"],
       "restart_policy": "unless-stopped",
       "title": "Minetest",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "container": "/config/.minetest"
@@ -1992,7 +1992,7 @@
       "ports": ["20211:20211/udp"],
       "restart_policy": "always",
       "title": "Pi.alert",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/pi.alert",
@@ -2022,7 +2022,7 @@
       "ports": ["8875:8875/tcp", "554:554/tcp", "1900:1900/udp"],
       "restart_policy": "unless-stopped",
       "title": "Minisatip",
-      "type": 1
+      "type": 3
     },
     {
       "categories": ["Music"],
@@ -2034,7 +2034,7 @@
       "ports": ["3000:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Mstream",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mstream",
@@ -2072,7 +2072,7 @@
       "ports": ["64738:64738/tcp", "64738:64738/udp"],
       "restart_policy": "unless-stopped",
       "title": "Murmur",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/etc/localtime:ro",
@@ -2119,7 +2119,7 @@
       "ports": ["5000:5000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "MusicBrainz",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/MusicBrainz",
@@ -2153,7 +2153,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Muximux",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Muximux",
@@ -2183,7 +2183,7 @@
       "ports": ["8090:8090/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Mylar",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mylar",
@@ -2221,7 +2221,7 @@
       "ports": ["6789:6789/tcp"],
       "restart_policy": "unless-stopped",
       "title": "NZBGet",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nzbget",
@@ -2255,7 +2255,7 @@
       "ports": ["5076:5076/tcp"],
       "restart_policy": "unless-stopped",
       "title": "NZBHydra 2",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nzbhydra2",
@@ -2331,7 +2331,7 @@
       "ports": ["80/tcp", "443/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Nginx",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nginx",
@@ -2377,7 +2377,7 @@
       "ports": ["8888:8888/tcp", "10000:10000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "OScam",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/OScam",
@@ -2425,7 +2425,7 @@
       "ports": ["943:943/tcp", "9443:9443/tcp", "1194:1194/udp"],
       "restart_policy": "unless-stopped",
       "title": "OpenVPN Access Server",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
@@ -2564,7 +2564,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "PhotoShow",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Pictures",
@@ -2597,7 +2597,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pi-Hole",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiHole",
@@ -2631,7 +2631,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Piwigo",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiWigo",
@@ -2666,7 +2666,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Plex",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Plex",
@@ -2709,7 +2709,7 @@
       "ports": ["3000:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Plex Requests",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PlexRequests",
@@ -2739,7 +2739,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "ProjectSend",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/ProjectSend",
@@ -2762,7 +2762,7 @@
       "ports": ["143/tcp", "25/tcp"],
       "restart_policy": "unless-stopped",
       "title": "ProtonMail Bridge",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/ProtonMail-Bridge",
@@ -2792,7 +2792,7 @@
       "ports": ["9696:9696/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Prowlarr",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Prowlarr",
@@ -2822,7 +2822,7 @@
       "ports": ["443/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Pydio",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Pydio",
@@ -2856,7 +2856,7 @@
       "ports": ["6881:6881/tcp", "6881:6881/udp", "8080:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "qBittorrent",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/qBittorrent",
@@ -2890,7 +2890,7 @@
       "ports": ["4242:4242/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Quassel IRC",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Quassel-core",
@@ -2920,7 +2920,7 @@
       "ports": ["7878:7878/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Radarr",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Radarr",
@@ -2959,7 +2959,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Reactive-Resume",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ReactiveResume",
@@ -2988,7 +2988,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Resilio Sync",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Resilio-Sync",
@@ -3025,7 +3025,7 @@
       "ports": ["80/tcp", "51413:51413/tcp", "6881:6881/udp"],
       "restart_policy": "unless-stopped",
       "title": "ruTorrent",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ruTorrent",
@@ -3059,7 +3059,7 @@
       "ports": ["8080:8080/tcp", "9090:9090/tcp"],
       "restart_policy": "unless-stopped",
       "title": "SABnzbd",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Sabnzbd",
@@ -3097,7 +3097,7 @@
       "ports": ["8081:8081/tcp"],
       "restart_policy": "unless-stopped",
       "title": "SickChill",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/SickChill",
@@ -3135,7 +3135,7 @@
       "ports": ["8081:8081/tcp"],
       "restart_policy": "unless-stopped",
       "title": "SickGear",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/SickGear",
@@ -3173,7 +3173,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "SmokePing",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Smokeping",
@@ -3220,7 +3220,7 @@
       "ports": ["8989:8989/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Sonarr",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Sonarr",
@@ -3263,7 +3263,7 @@
       "ports": ["8181:8181/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Tautulli",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Logs",
@@ -3297,7 +3297,7 @@
       "ports": ["9000:9000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "TheLounge",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TheLounge",
@@ -3315,7 +3315,7 @@
       "ports": ["8080:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "TiddlyWiki",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TiddlyWiki",
@@ -3345,7 +3345,7 @@
       "ports": ["80/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Tiny Tiny RSS",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/tt-rss",
@@ -3375,7 +3375,7 @@
       "ports": ["9091:9091/tcp", "51413:51413/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Transmission",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Transmission",
@@ -3434,7 +3434,7 @@
       "ports": ["9091:9091/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Transmission-OpenVPN",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -3468,7 +3468,7 @@
       "ports": ["9981:9981/tcp", "9982:9982/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Tvheadend",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TVHeadend",
@@ -3506,7 +3506,7 @@
       "ports": ["2202:2202/tcp", "2203:2203/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Ubooquity",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "container": "/books"
@@ -3550,7 +3550,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "UniFi Controller",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Unifi",
@@ -3568,7 +3568,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Watchtower",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/var/run/docker.sock",
@@ -3598,7 +3598,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "WebGrab+Plus",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/WebGrabPlus",
@@ -3620,7 +3620,7 @@
       "ports": ["5001:5000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Whoogle",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Whoogle",
@@ -3638,7 +3638,7 @@
       "ports": ["3100:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Wikijs",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Wikijs",
@@ -3660,7 +3660,7 @@
       "ports": ["8001:8000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Yacht",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "yacht",
@@ -3695,7 +3695,7 @@
       "ports": ["8888:8080/tcp"],
       "restart_policy": "always",
       "title": "Dozzle",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/var/run/docker.sock",
@@ -3726,7 +3726,7 @@
       "ports": ["8000:80/tcp"],
       "restart_policy": "always",
       "title": "Netbox",
-      "type": 1
+      "type": 3
     },
     {
       "categories": ["Dashboard", "IoT"],
@@ -3812,7 +3812,7 @@
       "ports": ["7280:80/tcp"],
       "restart_policy": "always",
       "title": "Cryptofolio",
-      "type": 1
+      "type": 3
     },
     {
       "categories": ["Dashboard", "IoT"],
@@ -3836,7 +3836,7 @@
       "platform": "linux",
       "restart_policy": "always",
       "title": "Change Detection",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/changedetection",
@@ -3854,7 +3854,7 @@
       "ports": ["6060:8080/tcp"],
       "restart_policy": "always",
       "title": "Reveal.js",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/revealjs/docs/slides",
@@ -3876,7 +3876,7 @@
       "ports": ["4040:8080/tcp"],
       "restart_policy": "always",
       "title": "Statping",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/statping",
@@ -3894,7 +3894,7 @@
       "ports": ["3493:3493/tcp"],
       "restart_policy": "always",
       "title": "NUTS",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/nuts",
@@ -3954,7 +3954,7 @@
       "ports": ["3000:3000/tcp"],
       "restart_policy": "always",
       "title": "Webtop",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/WebTop",
@@ -5042,7 +5042,7 @@
       "ports": ["17442:17442/tcp"],
       "restart_policy": "unless-stopped",
       "title": "YouTubeDL-Material",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/YTDLM",
@@ -5088,7 +5088,7 @@
       "ports": ["6501:6501/tcp"],
       "restart_policy": "unless-stopped",
       "title": "ZNC",
-      "type": 1,
+      "type": 3,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ZNC",
